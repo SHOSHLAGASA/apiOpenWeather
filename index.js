@@ -4,7 +4,7 @@ let apiKey = "cf002751564a4c78f5f7ed479f1b9ba3";
 //  getting the date to display on the page
  let name = document.querySelector("#name")
  let desc = document.querySelector("#desc")
- let temp = document.querySelector("#temp")
+ let tem = document.querySelector("#temp")
 //  when the button listen to click and its empty the respond will be Please Enter A city if they click city the the API will get the date 
  button.addEventListener("click", () => {
     let cityName = document.querySelector("#city-Name").value;
@@ -27,7 +27,7 @@ let apiKey = "cf002751564a4c78f5f7ed479f1b9ba3";
              console.log(descValue);
 
              name.innerHTML = `Name: ${nameValue}`;
-				temp.innerHTML = `Temp: ${temp}`;
+				tem.innerHTML = `Temp: ${temp}`;
 				desc.innerHTML = `Description: ${descValue}`;
 
          })

@@ -12,6 +12,7 @@ h1{
     justify-content: center;
     align-items: center;
 }
+
 .input {
     height: 100vh;
     display: flex;
